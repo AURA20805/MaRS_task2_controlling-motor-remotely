@@ -13,11 +13,11 @@ The enablepin is kept HIGH so that the motor driver is always active.
 
 Serial print is used just to display the current state like OFF, LEFT, or RIGHT.
 
-motorpin1 and motorpin2 are connected to the motor driver input pins.
+motorpin1 and motorpin2 are connected to the motor driver input pins, and the D3,D4 pin of ESP328266 MICROCONTROLLER.
 
 These decide the direction of rotation.
 
-enablepin is connected to the enable pin of the driver to activate it.
+enablepin is connected to the enable pin of the driver to activate it and to the D5 of the ESP328266 MICROCONTROLLER.
 
 The motor is connected to the output of the motor driver.
 
